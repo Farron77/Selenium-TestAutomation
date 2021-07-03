@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-07-03T07:56:12Z" name="Testing Google Apps" finished-at="2021-07-03T07:56:16Z" duration-ms="3743">
+    <groups>
+    </groups>
+    <test started-at="2021-07-03T07:56:12Z" name="Regression" finished-at="2021-07-03T07:56:16Z" duration-ms="3743">
+      <class name="com.demo.AppTest">
+        <test-method is-config="true" signature="SetUp()[pri:0, instance:com.demo.AppTest@1e800aaa]" started-at="2021-07-03T15:56:12Z" name="SetUp" finished-at="2021-07-03T15:56:14Z" duration-ms="1959" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method signature="SearchInGoogle()[pri:0, instance:com.demo.AppTest@1e800aaa]" started-at="2021-07-03T15:56:14Z" name="SearchInGoogle" finished-at="2021-07-03T15:56:16Z" duration-ms="1763" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SearchInGoogle -->
+        <test-method is-config="true" signature="quitChrome()[pri:0, instance:com.demo.AppTest@1e800aaa]" started-at="2021-07-03T15:56:16Z" name="quitChrome" finished-at="2021-07-03T15:56:16Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitChrome -->
+      </class> <!-- com.demo.AppTest -->
+    </test> <!-- Regression -->
+  </suite> <!-- Testing Google Apps -->
+</testng-results>
