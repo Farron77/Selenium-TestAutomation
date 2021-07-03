@@ -2,20 +2,20 @@
 <testng-results total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-07-03T07:56:12Z" name="Testing Google Apps" finished-at="2021-07-03T07:56:16Z" duration-ms="3743">
+  <suite started-at="2021-07-03T08:30:57Z" name="Testing Google Apps" finished-at="2021-07-03T08:31:04Z" duration-ms="7660">
     <groups>
     </groups>
-    <test started-at="2021-07-03T07:56:12Z" name="Regression" finished-at="2021-07-03T07:56:16Z" duration-ms="3743">
+    <test started-at="2021-07-03T08:30:57Z" name="Regression" finished-at="2021-07-03T08:31:04Z" duration-ms="7660">
       <class name="com.demo.AppTest">
-        <test-method is-config="true" signature="SetUp()[pri:0, instance:com.demo.AppTest@1e800aaa]" started-at="2021-07-03T15:56:12Z" name="SetUp" finished-at="2021-07-03T15:56:14Z" duration-ms="1959" status="PASS">
+        <test-method is-config="true" signature="SetUp()[pri:0, instance:com.demo.AppTest@1e800aaa]" started-at="2021-07-03T16:30:57Z" name="SetUp" finished-at="2021-07-03T16:30:59Z" duration-ms="1912" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SetUp -->
-        <test-method signature="SearchInGoogle()[pri:0, instance:com.demo.AppTest@1e800aaa]" started-at="2021-07-03T15:56:14Z" name="SearchInGoogle" finished-at="2021-07-03T15:56:16Z" duration-ms="1763" status="PASS">
+        <test-method signature="SearchInGoogle()[pri:0, instance:com.demo.AppTest@1e800aaa]" started-at="2021-07-03T16:30:59Z" name="SearchInGoogle" finished-at="2021-07-03T16:31:00Z" duration-ms="1538" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SearchInGoogle -->
-        <test-method is-config="true" signature="quitChrome()[pri:0, instance:com.demo.AppTest@1e800aaa]" started-at="2021-07-03T15:56:16Z" name="quitChrome" finished-at="2021-07-03T15:56:16Z" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="quitChrome()[pri:0, instance:com.demo.AppTest@1e800aaa]" started-at="2021-07-03T16:31:00Z" name="quitChrome" finished-at="2021-07-03T16:31:04Z" duration-ms="4194" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- quitChrome -->
