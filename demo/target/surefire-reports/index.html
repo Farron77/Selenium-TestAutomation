@@ -90,7 +90,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">1 method,   1 passed</span>
+                    <span class="method-stats">2 methods,   2 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -99,6 +99,11 @@
                       <a href="#" panel-name="suite-Testing_Google_Apps" class="show-methods passed suite-Testing_Google_Apps"> (show)</a> <!-- show-methods passed suite-Testing_Google_Apps -->
                     </span>
                     <div class="method-list-content passed suite-Testing_Google_Apps">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Testing_Google_Apps" title="com.demo.AppTest" class="method navigator-link" hash-for-method="NavigateToGmail">NavigateToGmail</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
                         <a href="#" panel-name="suite-Testing_Google_Apps" title="com.demo.AppTest" class="method navigator-link" hash-for-method="SearchInGoogle">SearchInGoogle</a> <!-- method navigator-link -->
@@ -122,6 +127,13 @@
               <span class="class-name">com.demo.AppTest</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="NavigateToGmail">
+                  </a> <!-- NavigateToGmail -->
+                  <span class="method-name">NavigateToGmail</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
                   <a name="SearchInGoogle">
@@ -183,16 +195,20 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(1);
+data.addRows(2);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'SearchInGoogle')
+data.setCell(0, 1, 'NavigateToGmail')
 data.setCell(0, 2, 'com.demo.AppTest')
-data.setCell(0, 3, 1538);
+data.setCell(0, 3, 12293);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'SearchInGoogle')
+data.setCell(1, 2, 'com.demo.AppTest')
+data.setCell(1, 3, 810);
 window.suiteTableData['Testing_Google_Apps']= { tableData: data, tableDiv: 'times-div-Testing_Google_Apps'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 1 seconds</span>
+              <span class="suite-total-time">Total running time: 13 seconds</span>
               <div id="times-div-Testing_Google_Apps">
               </div> <!-- times-div-Testing_Google_Apps -->
             </div> <!-- times-div -->
@@ -224,12 +240,16 @@ return data;
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-test before -->
               <div class="test-method">
+                <span class="method-name">NavigateToGmail</span>
+                <span class="method-start">1956 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
                 <span class="method-name">SearchInGoogle</span>
-                <span class="method-start">1925 ms</span>
+                <span class="method-start">14250 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-test after">
                 <span class="method-name">quitChrome</span>
-                <span class="method-start">3465 ms</span>
+                <span class="method-start">15061 ms</span>
               </div> <!-- configuration-test after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
